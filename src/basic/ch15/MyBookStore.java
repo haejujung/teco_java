@@ -23,7 +23,7 @@ public class MyBookStore {
 		books[3] = new Book("리딩으로리드하라", "이지성");
 		books[4] = new Book("사피엔스", "유발하라리");
 
-		LAST_INDEX_NUMBER = 5;
+		
 
 		final String SAVE = "1";
 		final String SEARCH_ALL = "2";
