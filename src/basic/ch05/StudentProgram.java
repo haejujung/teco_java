@@ -16,7 +16,7 @@ public class StudentProgram {
 	student1.name = "홍길동";
 	// 콘솔창에 student1(변수에 연결되어 있는 객체의 이름을 화면에 출력)
 	System.out.println(student1.name);
-	System.out.println("이순신");
+	student2.name = "이순신";
 	System.out.println(student2.name);
 	
 	System.out.println(student1);

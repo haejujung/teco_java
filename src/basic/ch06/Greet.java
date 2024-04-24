@@ -7,6 +7,7 @@ public class Greet {
 		greet("해주");
 
 		int result1 = square(7);
+		
 		System.out.println(result1);
 
 		System.out.println(checkAdult(17));
@@ -24,7 +25,7 @@ public class Greet {
 	}
 
 	static int square(int n1) {
-		int result1; // 변수 ->> 지역변수
+		int result1; // 함수안의 변수 ->> 지역변수
 		result1 = n1 * n1;
 		return result1;
 
