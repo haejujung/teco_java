@@ -11,6 +11,7 @@ public class Classroom {
 
 	public Classroom(String className) {
 		this.className = className;
+		
 		students = new Student[MAX_STUDEND];
 		this.studentCount = 0;
 	}
@@ -36,7 +37,8 @@ public class Classroom {
 		for(int i = 0; i < students.length; i++) {
 			// students[i] --> [객체주소] ---> heap 영역 객체를 참조
 			if(students[i] != null) {
-				System.out.println("이름 : " + students[i].getName() + "나이 : " + students[i].getAge());
+				System.out.println("이름 : " + students[i].getName() + 
+						"나이 : " + students[i].getAge());
 			}
 		}
 	}

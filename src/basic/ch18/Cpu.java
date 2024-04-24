@@ -12,5 +12,13 @@ public class Cpu {
 	void calculate() {
 		System.out.println("연산합니다");
 	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+		
+	}
 
 }
