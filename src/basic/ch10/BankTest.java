@@ -20,7 +20,7 @@ public class BankTest {
 		// 10만 5천원이 있어야 정상
 		// 의도 하지 않은 실수를 발생 시킬 수 있다.
 		bank1.deposit(100_000);
-		
+		System.out.println("------------------------");
 		//실행에 흐름을 만들 예정
 		// 현재 은행에 전체 잔고가 200_000 이하라면 본점에 금액 요청상황...
 		System.out.println(bank1.getBalance());
