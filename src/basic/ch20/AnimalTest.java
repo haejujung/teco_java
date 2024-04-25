@@ -18,7 +18,7 @@ public class AnimalTest {
 		주소3.move();
 		주소3.eating();
 //		주소3.readBooks(); << Animal이란 클래스는 컴파일시점에만
-		// int n1 = (int)10.5;
+		// ex) int n1 = (int)10.5;
 		((Human)주소3).readBooks();
 		System.out.println("---------------");
 		

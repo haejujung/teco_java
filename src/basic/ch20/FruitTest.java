@@ -7,7 +7,7 @@ public class FruitTest {
 		// 다형성
 		// 다양한 형태로 클래스(데이터 타입을) 바라 볼 수 있다.
 
-		Fruit fruit1 = new Banana(); // 업캐스팅된 상태 (부모의데이터타입으로 자식)
+		Fruit fruit1 = new Banana(); // 업캐스팅된 상태 (부모의데이터타입으로 자식클래스 객체 대입)
 		Fruit fruit2 = new Peach();
 
 		fruit1.showInfo();
