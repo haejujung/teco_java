@@ -25,6 +25,7 @@ public class StringTextBlock {
   
 				""";
 		
+		
 		// html,json 문자열을 만드는데 유용하게 사용할 수 있음
 	}
 
