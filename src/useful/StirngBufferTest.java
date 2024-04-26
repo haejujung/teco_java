@@ -24,7 +24,7 @@ public class StirngBufferTest {
 			
 			// 활용 
 			String newStr = bufferStr.toString(); // toString 호출시 타입 -> String  
-			
+			System.out.println(newStr);
 		
 		
 		
