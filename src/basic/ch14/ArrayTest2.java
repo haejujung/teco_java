@@ -27,7 +27,7 @@ public class ArrayTest2 {
 		
 		// 배열에 선언과 동시에 초기화
 		int[] grades = new int[] {5,3,1};
-		int[] grades2 = {5,3,1}; // new int[] 생략 가능하다.
+		int grades2[] = {5,3,1}; // new int[] 생략 가능하다.
 		
 		// 문제 1
 		// 5개의 크기를 가지는 double 타입의 배열을 선언 하시오.

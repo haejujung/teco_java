@@ -16,6 +16,7 @@ public class StarCraftTest2 {
 		
 		Zealot zealot1 = gateWay1.createZealot("질럿1");
 		Zealot zealot2 = gateWay1.createZealot("질럿2");
+		Zealot zealot3 = gateWay2.createZealot("질럿3");
 		System.out.println(gateWay1.getGateWayNumber() + " : " +gateWay1.getCount());
 		System.out.println(gateWay2.getGateWayNumber() + " : " +gateWay2.getCount());
 		System.out.println("---------------------------");

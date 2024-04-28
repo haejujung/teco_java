@@ -3,7 +3,7 @@ package basic.ch15;
 import java.util.Scanner;
 
 /**
- * author - 김근호 모든 프로그래밍의 기본은 C R U D 이다.
+ * 모든 프로그래밍의 기본은 C R U D 이다.
  */
 public class MyBookStore {
 
@@ -11,9 +11,7 @@ public class MyBookStore {
 
 	public static void main(String[] args) {
 
-		// 준비물
 		Scanner sc = new Scanner(System.in);
-		// 배열 선언
 		Book[] books = new Book[100];
 
 		// 샘플 데이터 만들어 놓기

@@ -17,7 +17,7 @@ public class LottoGame2 {
 		
 		// 수식을 작성해주세요
 		// 만약 if --> 반복문 사용 금지 if문 6개로 구성해주세요
-		// 
+		
 		int tempBox = 0;
 		// 5, 1, 9, 7, 2, 3
 		

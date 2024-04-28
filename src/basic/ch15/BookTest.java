@@ -18,15 +18,8 @@ public class BookTest {
 		// 배열은 반복문과 함께 많이 활용된다.
 		// 배열에 크기와 요소에 크기는 꼭 동일한 것은 아니다.
 		
-		System.out.println(books[3].getTitle());
-		System.out.println(books[3].getAuthor());
-		
-		
-//		System.out.println(books[5].getAuthor()); <-- null  
-		
 		
 		for(int i = 0; i<books.length; i++) {
-			// 방어적 코드를 작성해주어야 한다.
 			if(books[i] != null) {
 			System.out.println(books[i].getTitle());
 			System.out.println(books[i].getAuthor());
@@ -34,7 +27,6 @@ public class BookTest {
 			
 			}
 			
-			// 방어적 코드를 작성해주어야 한다.
 		
 		}
 		
