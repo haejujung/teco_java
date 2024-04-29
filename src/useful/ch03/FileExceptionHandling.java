@@ -18,7 +18,7 @@ public class FileExceptionHandling {
 			System.out.println("catch 구문 실행!!");
 			
 			// 오류추적하는코드
-			e.printStackTrace();
+//			e.printStackTrace();
 		} finally {
 			// 반드시 수행 되어야 하는 코드 영역
 			// 심지어 return 키워드를 만나더라도 여기는 수행이 된다.
