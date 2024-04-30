@@ -17,4 +17,9 @@ public class Company {
 		Employee employee3 = new Employee("강감찬");
 		System.out.println(employee3.getEmployeeId());
 	}
+
+	public static Company getInstance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

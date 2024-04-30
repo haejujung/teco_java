@@ -6,7 +6,7 @@ public class NickNameTest {
 		
 		NickName nick = new NickName();
 		
-		String inputNick = "aaaaaa12111111111212";
+		String inputNick = "aaaaaa12";
 		
 		try {
 			nick.setNick(inputNick);
