@@ -4,7 +4,7 @@ public class WorkerMainTest {
 	
 	// 메인 작업자
 	public static void main(String[] args) {
-		System.out.println("---------- main thread 종료 -----------------");
+		System.out.println("---------- main thread 시작 -----------------");
 		System.out.println(Thread.currentThread());
 		
 		// 작업자 하나 만들어 내기
