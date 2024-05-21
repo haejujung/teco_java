@@ -19,7 +19,6 @@ public class Company {
 	}
 
 	public static Company getInstance() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 }

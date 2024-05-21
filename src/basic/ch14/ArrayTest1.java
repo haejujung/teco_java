@@ -10,8 +10,6 @@ public class ArrayTest1 {
 		names[0] = "김씨";
 		names[1] = "나씨";
 		names[2] = "박씨";
-//		names[3] = null
-//		names[4] = null
 
 		// 조회 - Read
 		System.out.println(names);

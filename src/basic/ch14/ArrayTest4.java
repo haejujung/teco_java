@@ -13,7 +13,7 @@ public class ArrayTest4 {
 		arrayStr[3] = "E";
 		arrayStr[25] = "Y";
 		
-		System.out.println(arrayStr[4]); // --> null 
+		System.out.println(arrayStr[4]); 
 		// 배열안에 요소의 개수를 출력 하시오 
 		// 값이 있다면 콘솔창에 출력
 		// 반복문 활용
