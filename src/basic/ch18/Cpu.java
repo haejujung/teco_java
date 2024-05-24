@@ -2,8 +2,8 @@ package basic.ch18;
 
 public class Cpu {
 	
-	String name;
-	int price;
+	private String name;
+	private int price;
 	
 	void memory() {
 		System.out.println("메모리에 저장합니다");

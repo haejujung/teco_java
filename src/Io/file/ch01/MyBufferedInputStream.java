@@ -24,7 +24,7 @@ public class MyBufferedInputStream {
 			}
 					
 		} catch (Exception e) {
-			// 리소스 자원 정리 -> 반대로 -> 열었떤 자원에 순서를 반대로 닫아 주면된다.
+			// 리소스 자원 정리 -> 반대로 -> 열었던 자원에 순서를 반대로 닫아 주면된다.
 			if(bfin != null) {
 				try {
 					bfin.close();

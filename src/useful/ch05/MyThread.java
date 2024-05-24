@@ -17,13 +17,14 @@ public class MyThread extends Thread {
 		// 우리가 동작 시키고자 하는 일을 정의해서 코드를 설계할 수 있다.
 		// 임무 -> 반복문 200을 수행해
 		for (int i = 0; i < 20; i++) {
-			System.out.println(i + " ,");
+			System.out.println(i + " , ");
 			
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
+			
 		}
 	}
 

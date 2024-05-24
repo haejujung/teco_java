@@ -4,11 +4,11 @@ public class ComputerTest1 {
 	
 	public static void main(String[] args) {
 		
-		Computer computer1 = new Computer();
+		Computer computer = new Computer();
 		Cpu cpu1 = new Cpu();
-		computer1.saveMemory();
+		computer.saveMemory();
 		System.out.println("----------");
-		computer1.runCalculate();
+		computer.runCalculate();
 		System.out.println("----------");
 		cpu1.setName("AMD");
 		

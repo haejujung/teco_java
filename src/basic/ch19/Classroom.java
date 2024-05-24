@@ -11,14 +11,14 @@ public class Classroom {
 
 	public Classroom(String className) {
 		this.className = className;
-		
+
 		students = new Student[MAX_STUDEND];
 		this.studentCount = 0;
 	}
 
 	// 학생을 추가하는 기능 만들기
 	public void addStudent(Student student) {
-		if(studentCount < MAX_STUDEND) {
+		if (studentCount < MAX_STUDEND) {
 			students[studentCount] = student;
 			studentCount++;
 		} else {
@@ -27,21 +27,30 @@ public class Classroom {
 	}
 
 	// 학습에 속한 모든 학생 정보를 출력하는 기능을 만드시오
-	
+
 	public void showStudents() {
-		
+
 //		students[0]
 //		students[1]
 //		students[2]
-		
-		for(int i = 0; i < students.length; i++) {
+
+		for (int i = 0; i < students.length; i++) {
 			// students[i] --> [객체주소] ---> heap 영역 객체를 참조
-			if(students[i] != null) {
-				System.out.println("이름 : " + students[i].getName() + 
-						"나이 : " + students[i].getAge());
+			if (students[i] != null) {
+				System.out.println("이름 : " + students[i].getName() + "나이 : " + students[i].getAge());
 			}
 		}
 	}
-	
+
+	public void outStudents() {
+
+		for (int i = 0; i < students.length; i++) {
+			if (students[i] != null) {
+				students[i] = null;
+			}
+		}
+		System.out.println("학생이 아무도 없습니다");
+
+	}
+
 }
-	

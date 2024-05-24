@@ -2,8 +2,6 @@ package basic.ch18;
 
 public class Computer {
 	
-	private String name;
-	private int price;
 	private Cpu cpu;
 	
 	public Computer() {

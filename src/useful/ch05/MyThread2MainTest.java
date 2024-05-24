@@ -15,6 +15,10 @@ public class MyThread2MainTest {
 		// 새로운 작업자를 생성해서 위임 시킬때는
 		// Thread 안에 있는 start() 메서드를 호출해야 된다
 		MyThread2 myThread = new MyThread2();
+//		myThread.run();  --> 일반 메서드 호출임!
+//		myThread.start();
+		
+		// 새로운 작업자를 생성해서 위임 시킬때는 Thread 안에 있는 start() 메서드를 호출해야 한다
 		Thread thread = new Thread(myThread);
 		thread.start();
 		

@@ -29,8 +29,8 @@ public class FruitTest {
 		// 바나나에 기능인 saleBanana() 메서드를 호출하시오
 
 		// 다운캐스팅
-		// Banana bananaCasting = (Banana)Fruits[0];
-		// bananaCasting.origin;
+//		 Banana bananaCasting = (Banana)Fruits[0];
+//		 bananaCasting.origin;
 		System.out.println(((Banana) fruits[0]).origin);
 		((Banana) fruits[0]).saleBanana();
 
@@ -45,6 +45,7 @@ public class FruitTest {
 		for (int i = 0; i < fruits.length; i++) {
 			if (fruits[i] instanceof Banana) {
 				((Banana) fruits[i]).saleBanana();
+				System.out.println("-------");
 			} else {
 				fruits[i].showInfo();
 			}

@@ -27,4 +27,12 @@ public class Car {
 		System.out.println("자동차가 멈춥니다");
 		
 	}
+	
+	public static void main(String[] args) {
+		
+		Car car = new Car();
+		car.startCar();
+		car.stopCar();
+		
+	}
 }

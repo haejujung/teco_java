@@ -11,8 +11,11 @@ public class BankTest {
 		// 연관관계라고 한다. 
 		customer.useBankService(bank);
 		System.out.println("----------------------");
+		customer.useBankService(bank0);
 		// enum type 연습 
 		bank.provideService(ServiceType.ACOUNT_INFO, customer);
+		System.out.println("----------------------");
+		bank.showAccountInfo(customer);
 
 	}
 

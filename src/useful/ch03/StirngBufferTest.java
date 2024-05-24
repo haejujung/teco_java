@@ -23,7 +23,7 @@ public class StirngBufferTest {
 			// 새로운 메모리를 할당 한 것이 아닌 변경한 것이다.  
 			
 			// 활용 
-			String newStr = bufferStr.toString(); // toString 호출시 타입 -> String  
+			String newStr = bufferStr.toString(); // toString 메서드 호출시 타입 -> String 으로 변환  
 			System.out.println(newStr);
 		
 		

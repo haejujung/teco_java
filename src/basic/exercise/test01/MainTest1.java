@@ -12,6 +12,8 @@ public class MainTest1 {
 	
 		
 		System.out.println(a.b.c.d.getName());
+		a.b.c.d.setName("디임");
+		System.out.println(a.b.c.d.getName());
 	}
 
 }

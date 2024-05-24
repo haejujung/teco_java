@@ -10,9 +10,22 @@ public class ClassroomTest {
 		
 		classroomA.addStudent(student1);
 		classroomA.addStudent(student2);
+
 		
 		classroomA.showStudents();
+		System.out.println("------------------");
 		
+		Student student3 = new Student("김부각", 22);
+		Student student4 = new Student("나보리", 31);
+		
+		classroomA.addStudent(student3);
+		classroomA.addStudent(student4);
+		
+		classroomA.showStudents();
+		System.out.println("-------------------");
+		
+		classroomA.outStudents();
+		classroomA.showStudents();
 	}
 
 }
